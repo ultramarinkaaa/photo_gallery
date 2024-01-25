@@ -1,0 +1,162 @@
+   .head {
+  background-color: #E9D0AD;
+  width: 100%;
+  height: 70px;
+}
+
+#navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#navbar li { 
+  display: inline; 
+  color: #000;
+  font-size: 22px;
+  font-family: sans-serif;
+  margin-right: 15px;
+}
+a:link {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+a:visited {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
+  color: #000;
+  font-weight: bold;
+}
+a:active {
+  text-decoration: underline;
+  color: #000;
+  font-weight: bold;
+}
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.photo {
+  margin: 10px;
+  text-align: center;
+}
+.photo img {
+  margin-top: 18px;
+  width: 400px;
+  height: 400px;
+}
+.photo p {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.modal-content {
+      background-color: #E9D0AD;
+      margin: 15% auto;
+      padding: 20px;
+      border: 1px solid #ddd;
+      width: 80%;
+      max-width: 400px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+      text-align: center;
+    }
+    .modal-content h3 {
+      color: black;
+    }
+    .modal-content label {
+      display: block;
+      font-size: 16px;
+      margin-bottom: 5px;
+    }
+    .modal-content input[type="text"],
+    .modal-content input[type="email"],
+    .modal-content input[type="password"] {
+      padding: 10px;
+      margin-bottom: 15px;
+      width: 100%;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    .modal-content input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #673E28;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    }
+  .close {
+  position: absolute; /* Устанавливаем позиционирование внутри блока контента */
+  top: 10px;
+  right: 10px;
+}
+    .close {
+  color: #673E28;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-content {
+  position: relative; /* Добавляем позиционирование для элемента закрытия */
+}
+
+h3 {
+  font-size: 28px;
+  font-family: sans-serif;
+}
+.btn {
+  font-size: 22px;
+  border-radius: 5px;
+  font-family: sans-serif;
+}
+#loginBtn {
+  margin-left: 600px;
+  font-size: 18px;
+  padding: 5px 10px;
+  background-color: #673E28;
+      color: white;
+      cursor: pointer;
+}
+#registerBtn {
+  font-size: 18px;
+  padding: 5px 5px;
+  background-color: #673E28;
+      color: white;
+      cursor: pointer;
+}
+#loginModal,
+    #registerModal {
+      display: none;
+      margin-top: -100px;
+    }
+.cc {
+    background-color: rgb(103, 62, 40, 0.75);
+    margin-top: 10px;
+}
+.tex {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30px;
+    height: 100px;
+    margin-top: -5px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
